@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+        body{
+            background-color: rgba(237, 242, 190, 0.537);
+        }
+        h2{
+            align-items:center;
+            justify-content: center;
+             padding: 1% 29%; 
+        }
+        .titel{
+            margin-top: -7px;
+            margin-left: 15%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: larger;
+            background-color:rgb(239, 239, 98);
+            border-radius: 100px;
+            width: 70%;
+        }
+        .A{
+            padding: 10px 20px;
+           
+        }
+        .b{
+            padding-left: 157px;
+        }
+       
+        .buttons{
+            display: flex;
+            margin-left: 10%;
+            padding-right: 10%;
+            border-radius: 10px;
+        }
+        .input{
+            border-radius: 10px;
+            border: 2px solid black;
+            margin-top: 1%;
+            padding-bottom: 2%;
+            margin-left: 36%;
+            margin-right: 39%;
+            padding-left: 10px;
+        }
+        .save{
+            padding-left: 25px;
+        }
+        .btn{
+            width: 100px;
+            height: 35px;
+            margin-top: 15px;
+            margin-right: 70px;
+            border-radius: 5px;
+            margin-left: -20px;
+            margin-bottom: 25px;
+            font-weight: bold;
+            color: black;
+            cursor: pointer;
+            background-color:rgb(180, 204, 249);
+        }
+        .btn:hover{
+            background-color: gold;
+        }
+        .save{
+            margin-left: 9px;
+            width: 325px;
+            height: 35px;
+            border-radius: 10px;
+            font-weight: bold;
+            background-color:rgb(180, 204, 249);
+            cursor: pointer;
+        }
+        .save:hover{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+   <div class="titel"><center><h2>Enter Your Delivery Address Here</h2></center></div> <hr>
+    <div class="input">
+     <div class="name A">  NAME*  <input type="text" style="margin-left: 78px;" placeholder="Enter Full Name"></div> 
+       <div class="num A">PHONE NUMBER* <input type="text" placeholder="Enter Phone number"></div> 
+       <div class="pin A b"><input type="text" placeholder="enter pin code*"></div>
+       <div class="state A ">ENTER STATE* <select  style="margin-left: 23px;"><option>--Select--</option>
+        <option>ANDHRAPRADESH</option>
+        <option>ARUNACHALPRADESH</option>
+        <option>ASSAM</option>
+        <option>BIHAR</option>
+        <option>CHHATTISGARH</option>
+        <option>GOA</option>
+        <option>GUJARAT</option>
+        <option>HARYANA</option>
+        <option>HIMACHALPRADESH</option>
+        <option>JHARKHAND</option>
+        <option>KARNATAK</option>
+        <option>KERALA</option>
+        <option>MADHYAPRADESH</option>
+        <option>MAHARASHTRA</option>
+        <option>MANIPUR</option>
+        <option>MEGHLAYA</option>
+        <option>MIZORAM</option>
+        <option>NAGALAND</option>
+        <option>ODISHA</option>
+        <option>PUNJAB</option>
+        <option>RAJASTHAN</option>
+        <option>SIKKIM</option>
+        <option>TAMILNADU</option> 
+        <option>TELENGANA</option>
+        <option>TRIPURA</option>
+        <option>UTTARAKHAND</option>
+        <option>UTTARPRADESH</option>
+        <option>WESTBENGAL</option>
+        </select></div>
+       <div class="city A b"><input type="text" placeholder="enter City*"></div>
+       <div class="hno A b"><input type="text" placeholder="enter House Number*"></div>
+       <div class="rdna A b"><input type="text" placeholder="Road name, Area, Colony*"></div>
+       <div class="buttons">
+       <div ><button class="btn A">home</button ></div><div><button  class="btn A">Work</button></div></div>
+       <div ><a href="Home.html"><button class="save">Save Address</button></a></div>
+    </div>
+</body>
+</html>
